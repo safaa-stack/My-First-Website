@@ -1,4 +1,4 @@
-body {background-color: burleywood(222, 160, 135);
+body {background-color: rgb(42, 165, 128);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,14 +7,31 @@ h1 {
     text-align: left;
 }
 
+p {
+    color: white;
+}
+
 h2 {
+    color: white;
+    text-align: center;
+}
+
+section {
     color: white;
     text-align: center;
 }
 
 ul {
     color: white;
-    text-align: center; 
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside; 
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    margin: 10px 0;
 }
 
 h2 {
@@ -22,12 +39,17 @@ h2 {
     text-align: left;
  }
 
+ p{
+    color: white;
+    text-align: center;
+ }
+
  button {
-    background-color: whitesmoke;
-    color: beige;
-    padding: 10px 20px
+    background-color: rgb(224, 218, 218);
+    color: rgb(43, 95, 155);
+    padding: 10px 20px;
     border: none;
-    botder-radius: 8px;
+    border-radius: 8px;
  }
 
  footer {
